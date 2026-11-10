@@ -7,66 +7,90 @@ X-WR-CALNAME:Coach vélo – Amédée
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:20261111-coach@amedee-coach
-DTSTAMP:20261110T085350Z
+DTSTAMP:20261110T103417Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-SUMMARY:🧪 Ramp test Zwift
+SUMMARY:🧪 Ramp test Zwift + mobilité 10 min après
 DESCRIPTION:Poids 92,5 kg à jour dans Zwift. Aller jusqu'à l'échec. Note
  r la FC max atteinte. Objectif : mesurer la FTP. Vigilance : bien reposé,
-  ventilateur, hydratation.
+  ventilateur, hydratation.\nPas d'étirements statiques avant le test. Apr
+ ès : routine Post-vélo 10 min (Recover).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-coach@amedee-coach
-DTSTAMP:20261110T085350Z
+DTSTAMP:20261110T103417Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:🟢 Récup 45 min Z1 (facultatif)
-DESCRIPTION:< 140 W, cadence 85–95 rpm. Repos possible.
+SUMMARY:🟢 Récup 45 min Z1 (facultatif) + mobilité 10 min
+DESCRIPTION:< 140 W, cadence 85–95 rpm. Repos possible.\nRoutine Post-vé
+ lo 10 min (Recover).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261113-coach@amedee-coach
+DTSTAMP:20261110T103417Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🧘 Mobilité + gainage 20 min (Recover)
+DESCRIPTION:Hanches, colonne thoracique, ischios + planche, pont fessier, d
+ ead bug, side plank.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114-coach@amedee-coach
-DTSTAMP:20261110T085350Z
+DTSTAMP:20261110T103417Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:🚴 Endurance facile ≤ 2 h
+SUMMARY:🚴 Endurance facile ≤ 2 h + mobilité 10 min
 DESCRIPTION:Allure conversationnelle, FC < ~150, pas de chasse aux segments
- .
+ .\nAprès : routine Post-vélo 10 min (Recover).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261116-coach@amedee-coach
+DTSTAMP:20261110T103417Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:🧘 Mobilité douce 20 min (Recover)
+DESCRIPTION:Hanches et colonne thoracique, sans gainage intense (test LTHR 
+ le lendemain).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261117-coach@amedee-coach
-DTSTAMP:20261110T085350Z
+DTSTAMP:20261110T103417Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-SUMMARY:🧪 Test LTHR vélo 30 min (home trainer)
+SUMMARY:🧪 Test LTHR vélo 30 min + mobilité 10 min après
 DESCRIPTION:Échauffement 15 min : 10 min progressif 120→170 W, 3×30 s @
   ~100 rpm/200 W (r30 s), 3 min facile.\n30 min effort max régulier, dépa
  rt à 95 % de la FTP du ramp test, accélérer après 20 min, 85–95 rpm,
   ERG off.\nRetour au calme 10 min Z1.\nRésultat : LTHR = FC moyenne des 2
- 0 dernières minutes.
+ 0 dernières minutes.\nPas d'étirements statiques avant. Après : routine
+  Post-vélo 10 min.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261118-coach@amedee-coach
-DTSTAMP:20261110T085350Z
+DTSTAMP:20261110T103417Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:🟢 Récup 30–40 min Z1 (facultatif)
-DESCRIPTION:Très facile ou repos.
+SUMMARY:🟢 Récup 30–40 min Z1 (facultatif) + mobilité 10 min
+DESCRIPTION:Très facile ou repos.\nRoutine Post-vélo 10 min (Recover).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261120-coach@amedee-coach
-DTSTAMP:20261110T085350Z
+DTSTAMP:20261110T103417Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-SUMMARY:🧪 Test FC max course à pied (côte)
+SUMMARY:🧪 Test FC max course à pied (côte) + mobilité 10 min après
 DESCRIPTION:Échauffement 15 min + 3 accélérations de 20 s. Côte de 2–
  3 min : montée 1 ≈ 80 %, montée 2 ≈ 90 %, montée 3 à fond avec spr
  int final de 30 s. Retour au calme 10 min.\nVigilance : arrêt immédiat s
- i douleur thoracique, vertige ou palpitations.
+ i douleur thoracique, vertige ou palpitations.\nAprès : mobilité 10 min 
+ (mollets, ischios, psoas).
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
