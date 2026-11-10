@@ -1,0 +1,466 @@
+[
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 0,
+  "min": 10.0,
+  "debut_pct": 50.0,
+  "fin_pct": 65.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 1,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 2,
+  "min": 1.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 3,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 4,
+  "min": 1.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 5,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 6,
+  "min": 1.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 7,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 8,
+  "min": 1.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 9,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 10,
+  "min": 1.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 11,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 12,
+  "min": 1.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 13,
+  "min": 4.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 14,
+  "min": 6.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 68",
+  "ordre": 15,
+  "min": 10.0,
+  "debut_pct": 55.0,
+  "fin_pct": 45.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 0,
+  "min": 10.0,
+  "debut_pct": 50.0,
+  "fin_pct": 65.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 1,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 2,
+  "min": 1.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 3,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 4,
+  "min": 1.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 5,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 6,
+  "min": 1.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 7,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 8,
+  "min": 1.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 9,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 10,
+  "min": 1.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 11,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 12,
+  "min": 1.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 105
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 13,
+  "min": 4.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 14,
+  "min": 6.0,
+  "debut_pct": 70.0,
+  "fin_pct": 70.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Endurance cadence 70",
+  "ordre": 15,
+  "min": 10.0,
+  "debut_pct": 55.0,
+  "fin_pct": 45.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 0,
+  "min": 10.0,
+  "debut_pct": 50.0,
+  "fin_pct": 70.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 1,
+  "min": 5.0,
+  "debut_pct": 65.0,
+  "fin_pct": 65.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 2,
+  "min": 6.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 3,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 4,
+  "min": 6.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 5,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 6,
+  "min": 6.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 7,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 8,
+  "min": 6.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 9,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 10,
+  "min": 10.0,
+  "debut_pct": 68.0,
+  "fin_pct": 68.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x6",
+  "ordre": 11,
+  "min": 10.0,
+  "debut_pct": 55.0,
+  "fin_pct": 45.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 0,
+  "min": 10.0,
+  "debut_pct": 50.0,
+  "fin_pct": 70.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 1,
+  "min": 5.0,
+  "debut_pct": 65.0,
+  "fin_pct": 65.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 2,
+  "min": 8.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 3,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 4,
+  "min": 8.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 5,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 6,
+  "min": 8.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 7,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 8,
+  "min": 8.0,
+  "debut_pct": 80.0,
+  "fin_pct": 80.0,
+  "cadence": 62
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 9,
+  "min": 4.0,
+  "debut_pct": 60.0,
+  "fin_pct": 60.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Force-endurance 4x8",
+  "ordre": 10,
+  "min": 12.0,
+  "debut_pct": 55.0,
+  "fin_pct": 45.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Z2 continu 45",
+  "ordre": 0,
+  "min": 10.0,
+  "debut_pct": 50.0,
+  "fin_pct": 65.0,
+  "cadence": null
+ },
+ {
+  "seance": "AR B1 - Z2 continu 45",
+  "ordre": 1,
+  "min": 30.0,
+  "debut_pct": 65.0,
+  "fin_pct": 65.0,
+  "cadence": 90
+ },
+ {
+  "seance": "AR B1 - Z2 continu 45",
+  "ordre": 2,
+  "min": 5.0,
+  "debut_pct": 55.0,
+  "fin_pct": 45.0,
+  "cadence": null
+ }
+]
