@@ -1,0 +1,22 @@
+<workout_file>
+  <author>Amedee Railleur</author>
+  <name>AR B1 - Endurance cadence 68</name>
+  <description>60 min. 40 min Z2 a 68% FTP avec 6 x 1 min a 100-110 rpm. Bloc 1 semaine 1.</description>
+  <sportType>bike</sportType>
+  <tags><tag name="BLOC1"/></tags>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.65">
+      <textevent timeoffset="10" message="Echauffement progressif, cadence libre 85-95 rpm"/>
+    </Warmup>
+    <SteadyState Duration="240" Power="0.68" Cadence="90">
+      <textevent timeoffset="5" message="Z2 a 68% FTP. Respiration nasale possible = bon rythme"/>
+    </SteadyState>
+    <IntervalsT Repeat="6" OnDuration="60" OffDuration="240" OnPower="0.68" OffPower="0.68" Cadence="105" CadenceResting="90">
+      <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
+    </IntervalsT>
+    <SteadyState Duration="360" Power="0.68" Cadence="90"/>
+    <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
+      <textevent timeoffset="5" message="Retour au calme. Routine Post Velo apres la seance"/>
+    </Cooldown>
+  </workout>
+</workout_file>

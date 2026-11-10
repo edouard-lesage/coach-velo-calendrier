@@ -1,0 +1,14 @@
+<workout_file>
+  <author>Amedee Railleur</author>
+  <name>AR B1 - Z2 continu 45</name>
+  <description>45 min. 30 min a 65% FTP, cadence libre 85-95 rpm.</description>
+  <sportType>bike</sportType>
+  <tags><tag name="BLOC1"/></tags>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.65"/>
+    <SteadyState Duration="1800" Power="0.65" Cadence="90">
+      <textevent timeoffset="5" message="Z2 tranquille, cadence libre"/>
+    </SteadyState>
+    <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45"/>
+  </workout>
+</workout_file>
