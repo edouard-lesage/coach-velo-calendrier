@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Amedee Railleur//Coach cycliste//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Coach vélo – Amédée
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+UID:20261111-coach@amedee-coach
+DTSTAMP:20261110T085350Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🧪 Ramp test Zwift
+DESCRIPTION:Poids 92,5 kg à jour dans Zwift. Aller jusqu'à l'échec. Note
+ r la FC max atteinte. Objectif : mesurer la FTP. Vigilance : bien reposé,
+  ventilateur, hydratation.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261112-coach@amedee-coach
+DTSTAMP:20261110T085350Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🟢 Récup 45 min Z1 (facultatif)
+DESCRIPTION:< 140 W, cadence 85–95 rpm. Repos possible.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-coach@amedee-coach
+DTSTAMP:20261110T085350Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🚴 Endurance facile ≤ 2 h
+DESCRIPTION:Allure conversationnelle, FC < ~150, pas de chasse aux segments
+ .
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261117-coach@amedee-coach
+DTSTAMP:20261110T085350Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:🧪 Test LTHR vélo 30 min (home trainer)
+DESCRIPTION:Échauffement 15 min : 10 min progressif 120→170 W, 3×30 s @
+  ~100 rpm/200 W (r30 s), 3 min facile.\n30 min effort max régulier, dépa
+ rt à 95 % de la FTP du ramp test, accélérer après 20 min, 85–95 rpm,
+  ERG off.\nRetour au calme 10 min Z1.\nRésultat : LTHR = FC moyenne des 2
+ 0 dernières minutes.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-coach@amedee-coach
+DTSTAMP:20261110T085350Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🟢 Récup 30–40 min Z1 (facultatif)
+DESCRIPTION:Très facile ou repos.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-coach@amedee-coach
+DTSTAMP:20261110T085350Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🧪 Test FC max course à pied (côte)
+DESCRIPTION:Échauffement 15 min + 3 accélérations de 20 s. Côte de 2–
+ 3 min : montée 1 ≈ 80 %, montée 2 ≈ 90 %, montée 3 à fond avec spr
+ int final de 30 s. Retour au calme 10 min.\nVigilance : arrêt immédiat s
+ i douleur thoracique, vertige ou palpitations.
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
