@@ -1,6 +1,6 @@
 """Rend une séance Zwift (.zwo) en image PNG façon Zwift.
 
-Usage : python3 render_zwo.py <fichier.zwo | nom de séance> [--ftp 205] [--out seance.png]
+Usage : python3 images/render_zwo.py <fichier.zwo | nom de séance> [--ftp 205] [--out seance.png]
 Le nom de séance (ex. « AR B1 - Endurance cadence 68 ») est cherché dans le dossier zwo/.
 """
 import argparse, glob, os, sys
@@ -10,7 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Polygon
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # racine du repo
 ZONES = [("Z1", 55, "#8a8a8a"), ("Z2", 75, "#3b82f6"), ("Z3", 90, "#4caf50"),
          ("Z4", 105, "#f4c430"), ("Z5", 120, "#f26b3a"), ("Z6", 999, "#e53935")]
 
@@ -25,7 +25,7 @@ def zone(p):
 def find(arg):
     if os.path.isfile(arg):
         return arg
-    for f in glob.glob(os.path.join(HERE, "zwo", "*.zwo")):
+    for f in glob.glob(os.path.join(ROOT, "zwo", "*.zwo")):
         n = ET.parse(f).getroot().findtext("name") or ""
         if n.strip().lower() == arg.strip().lower():
             return f

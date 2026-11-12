@@ -1,9 +1,9 @@
 """Export des données bien-être intervals.icu vers un CSV.
 
 Usage :
-    python intervals_wellness.py                      # 90 derniers jours (aujourd'hui inclus)
-    python intervals_wellness.py --oldest 2026-11-01 --newest 2026-11-12
-    python intervals_wellness.py --oldest 2026-11-01 --newest 2026-11-12 --output mon_fichier.csv
+    python intervals/get_intervals_wellnes.py                      # 90 derniers jours (aujourd'hui inclus)
+    python intervals/get_intervals_wellnes.py --oldest 2026-11-01 --newest 2026-11-12
+    python intervals/get_intervals_wellnes.py --oldest 2026-11-01 --newest 2026-11-12 --output mon_fichier.csv
 
 Identifiants lus dans le fichier .env ou les variables d'environnement :
     INTERVALS_ATHLETE_ID  (ex. i123456)

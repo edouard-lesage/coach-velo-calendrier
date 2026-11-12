@@ -1,4 +1,7 @@
 import datetime as dt
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # racine du repo
 ev=[("2026-11-11","🚴 Sortie entre amis 75 km / 780 m D+ (Versailles)","Parcours Komoot « Versailles - Chez Cedric » (≈ 3h30). Rester majoritairement en Z2 (115–155 W), montées sous ~175 W, laisser filer les accélérations du groupe.\\nManger toutes les 45 min dès le départ : 2 bidons dont 1 glucidique + 2 barres/gels.\\nAprès : routine Post-vélo 10 min (Recover)."),
 ("2026-11-12","🟢 Repos ou récup 30–45 min Z1 + gainage 15 min","< 140 W si vélo, facultatif.\\nRecover : Core with Heather Maclean (15 min, sans jambes)."),
 ("2026-11-13","🧘 Mobilité douce 20 min (Recover)","Recover : Post ride full body stretch and roll (20 min, rouleau). Aucun renfo ni gainage intense : ramp test le lendemain. Coucher tôt."),
@@ -35,4 +38,4 @@ for l in L:
         while (b[cut]&0xC0)==0x80: cut-=1
         out.append(b[:cut].decode()); b=b" "+b[cut:]
     out.append(b.decode())
-open("coach-velo.ics","w",newline="").write("\r\n".join(out)+"\r\n")
+open(os.path.join(ROOT, "coach-velo.ics"),"w",newline="").write("\r\n".join(out)+"\r\n")
