@@ -1,14 +1,22 @@
 <workout_file>
   <author>Amedee Railleur</author>
   <name>AR B1 - Z2 continu 45</name>
-  <description>45 min. 30 min a 65% FTP, cadence libre 85-95 rpm.</description>
+  <description>45 min. 30 min a 65% FTP, cadence libre 85-95 rpm. NUTRITION. Avant : repas 2-3 h avant ou collation 1 h avant, jamais a jeun. Pendant : eau + electrolytes seulement (500-750 ml), 2-3 gorgees toutes les 10 min (rappels a l'ecran). Pas de glucides necessaires. Apres : repas ou collation proteines + glucides dans l'heure.</description>
   <sportType>bike</sportType>
   <tags><tag name="BLOC1"/></tags>
   <workout>
-    <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.65"/>
+    <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.65">
+      <textevent timeoffset="10" message="Bidon 500-750 ml eau + electrolytes a portee, ventilo ON"/>
+    </Warmup>
     <SteadyState Duration="1800" Power="0.65" Cadence="90">
       <textevent timeoffset="5" message="Z2 tranquille, cadence libre"/>
+      <textevent timeoffset="300" message="HYDRATATION : 2-3 gorgees"/>
+      <textevent timeoffset="900" message="HYDRATATION : 2-3 gorgees"/>
+      <textevent timeoffset="1500" message="HYDRATATION : 2-3 gorgees"/>
     </SteadyState>
-    <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45"/>
+    <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.45">
+      <textevent timeoffset="5" message="Retour au calme. Finis ton bidon"/>
+      <textevent timeoffset="120" message="Apres : proteines + glucides dans l'heure. Routine Post Velo"/>
+    </Cooldown>
   </workout>
 </workout_file>

@@ -1,22 +1,54 @@
 <workout_file>
   <author>Amedee Railleur</author>
   <name>AR B1 - Endurance cadence 68</name>
-  <description>60 min. 40 min Z2 a 68% FTP avec 6 x 1 min a 100-110 rpm. Bloc 1 semaine 1.</description>
+  <description>60 min. 40 min Z2 a 68% FTP avec 6 x 1 min a 100-110 rpm. Bloc 1 semaine 1. NUTRITION. Avant : repas 2-3 h avant ou collation 1 h avant, jamais a jeun. Pendant : 1 bidon 750 ml eau + electrolytes, 2-3 gorgees toutes les 10 min (rappels a l'ecran). Glucides facultatifs : 1 pate de fruits vers 25 min si le dernier repas date de plus de 3 h. Apres : collation proteines + glucides dans l'heure ou repas.</description>
   <sportType>bike</sportType>
   <tags><tag name="BLOC1"/></tags>
   <workout>
     <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.65">
       <textevent timeoffset="10" message="Echauffement progressif, cadence libre 85-95 rpm"/>
+      <textevent timeoffset="60" message="Bidon 750 ml eau + electrolytes a portee, ventilo ON"/>
+      <textevent timeoffset="360" message="HYDRATATION : 2-3 gorgees"/>
     </Warmup>
     <SteadyState Duration="240" Power="0.68" Cadence="90">
       <textevent timeoffset="5" message="Z2 a 68% FTP. Respiration nasale possible = bon rythme"/>
     </SteadyState>
-    <IntervalsT Repeat="6" OnDuration="60" OffDuration="240" OnPower="0.68" OffPower="0.68" Cadence="105" CadenceResting="90">
+    <SteadyState Duration="60" Power="0.68" Cadence="105">
       <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
-    </IntervalsT>
-    <SteadyState Duration="360" Power="0.68" Cadence="90"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.68" Cadence="90">
+      <textevent timeoffset="30" message="HYDRATATION : 2-3 gorgees"/>
+    </SteadyState>
+    <SteadyState Duration="60" Power="0.68" Cadence="105">
+      <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.68" Cadence="90"/>
+    <SteadyState Duration="60" Power="0.68" Cadence="105">
+      <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.68" Cadence="90">
+      <textevent timeoffset="30" message="Boire. Dernier repas > 3 h ? 1 pate de fruits"/>
+    </SteadyState>
+    <SteadyState Duration="60" Power="0.68" Cadence="105">
+      <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.68" Cadence="90"/>
+    <SteadyState Duration="60" Power="0.68" Cadence="105">
+      <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.68" Cadence="90">
+      <textevent timeoffset="30" message="HYDRATATION : 2-3 gorgees"/>
+    </SteadyState>
+    <SteadyState Duration="60" Power="0.68" Cadence="105">
+      <textevent timeoffset="0" message="1 min a 100-110 rpm, meme puissance, buste immobile"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.68" Cadence="90"/>
+    <SteadyState Duration="360" Power="0.68" Cadence="90">
+      <textevent timeoffset="120" message="Boire 2-3 gorgees. Bidon a moitie vide ? Bon rythme"/>
+    </SteadyState>
     <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
-      <textevent timeoffset="5" message="Retour au calme. Routine Post Velo apres la seance"/>
+      <textevent timeoffset="5" message="Retour au calme. Finis ton bidon"/>
+      <textevent timeoffset="120" message="Apres : proteines + glucides dans l'heure. Routine Post Velo"/>
     </Cooldown>
   </workout>
 </workout_file>

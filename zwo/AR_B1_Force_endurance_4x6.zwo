@@ -1,20 +1,48 @@
 <workout_file>
   <author>Amedee Railleur</author>
   <name>AR B1 - Force-endurance 4x6</name>
-  <description>75 min. 4 x 6 min a 80% FTP a 60-65 rpm, recup 4 min a 60%. Bloc 1 semaine 1.</description>
+  <description>75 min. 4 x 6 min a 80% FTP a 60-65 rpm, recup 4 min a 60%. Bloc 1 semaine 1. NUTRITION. Avant : repas 2-3 h avant ou collation 1 h avant, jamais a jeun. Pendant : 1 bidon 750 ml avec 30 g de glucides (boisson d'effort), ou eau + electrolytes et 1 gel/pate de fruits pendant la 2e recup. Boire 3-4 gorgees a chaque recup (rappels a l'ecran), bidon fini a la fin. Apres : collation proteines + glucides dans l'heure ou repas.</description>
   <sportType>bike</sportType>
   <tags><tag name="BLOC1"/></tags>
   <workout>
     <Warmup Duration="600" PowerLow="0.50" PowerHigh="0.70">
       <textevent timeoffset="10" message="Echauffement progressif"/>
+      <textevent timeoffset="60" message="Bidon 750 ml + 30 g glucides (ou gel prevu), ventilo ON"/>
+      <textevent timeoffset="360" message="HYDRATATION : 2-3 gorgees"/>
     </Warmup>
-    <SteadyState Duration="300" Power="0.65" Cadence="90"/>
-    <IntervalsT Repeat="4" OnDuration="360" OffDuration="240" OnPower="0.80" OffPower="0.60" Cadence="62" CadenceResting="90">
+    <SteadyState Duration="300" Power="0.65" Cadence="90">
+      <textevent timeoffset="120" message="Boire 2-3 gorgees avant le premier bloc"/>
+    </SteadyState>
+    <SteadyState Duration="360" Power="0.80" Cadence="62">
       <textevent timeoffset="0" message="6 min a 80% FTP, 60-65 rpm, assis, gainage actif, pas d'a-coups"/>
-    </IntervalsT>
-    <SteadyState Duration="600" Power="0.68" Cadence="90"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.60" Cadence="90">
+      <textevent timeoffset="20" message="Recup : boire 3-4 gorgees"/>
+    </SteadyState>
+    <SteadyState Duration="360" Power="0.80" Cadence="62">
+      <textevent timeoffset="0" message="6 min a 80% FTP, 60-65 rpm, assis, gainage actif, pas d'a-coups"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.60" Cadence="90">
+      <textevent timeoffset="20" message="Recup : boire + MANGER (gel ou pate de fruits si bidon sans glucides)"/>
+    </SteadyState>
+    <SteadyState Duration="360" Power="0.80" Cadence="62">
+      <textevent timeoffset="0" message="6 min a 80% FTP, 60-65 rpm, assis, gainage actif, pas d'a-coups"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.60" Cadence="90">
+      <textevent timeoffset="20" message="Recup : boire 3-4 gorgees"/>
+    </SteadyState>
+    <SteadyState Duration="360" Power="0.80" Cadence="62">
+      <textevent timeoffset="0" message="6 min a 80% FTP, 60-65 rpm, assis, gainage actif, pas d'a-coups"/>
+    </SteadyState>
+    <SteadyState Duration="240" Power="0.60" Cadence="90">
+      <textevent timeoffset="20" message="Recup : boire 3-4 gorgees"/>
+    </SteadyState>
+    <SteadyState Duration="600" Power="0.68" Cadence="90">
+      <textevent timeoffset="60" message="Boire 2-3 gorgees. Le bidon doit etre presque fini"/>
+    </SteadyState>
     <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45">
-      <textevent timeoffset="5" message="Retour au calme. Routine Post Velo apres la seance"/>
+      <textevent timeoffset="5" message="Retour au calme. Finis ton bidon"/>
+      <textevent timeoffset="120" message="Apres : proteines + glucides dans l'heure. Routine Post Velo"/>
     </Cooldown>
   </workout>
 </workout_file>
